@@ -1,0 +1,40 @@
+@mixin icons($color) {
+    width: 25px;
+    font-size: 5em;
+    display: inline-block;
+   padding: 0.5em;
+    color: $color
+}
+i:nth-of-type(1) {
+    @include icons(#1da1f2)
+}
+i:nth-of-type(2) {
+    @include icons(#1769ff)
+}
+i:nth-of-type(3) {
+    @include icons(#3b5998)
+}
+i:nth-of-type(4) {
+    @include icons(#ff9900)
+}
+i:nth-of-type(5) {
+    @include icons(#fd5c63)
+}
+i:nth-of-type(6) {
+    @include icons(#a4c639)
+}
+i:nth-of-type(7) {
+    @include icons(#4078c0)
+}
+i:nth-of-type(8) {
+    @include icons(#42b883)
+}
+i:nth-of-type(9) {
+    @include icons(gold)
+}
+i:nth-of-type(10) {
+    @include icons(#fffc00)
+}
+i:nth-of-type(11) {
+    @include icons(#376db6)
+}
